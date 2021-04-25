@@ -3,7 +3,7 @@
 **A very small .NET Console app to launch Epic Games Store games from a Steam Link**
 
 [![GitHub](https://img.shields.io/github/license/favna/SteamLinkEpicLauncher)](https://github.com/favna/SteamLinkEpicLauncher/blob/main/LICENSE.md)
-[![Continuous Deployment](https://github.com/Favna/SteamLinkEpicLauncher/actions/workflows/continuous-deployment.yml/badge.svg?branch=main)](https://github.com/Favna/SteamLinkEpicLauncher/actions/workflows/continuous-deployment.yml/badge.svg?branch=main)
+[![Continuous Deployment](https://github.com/Favna/SteamLinkEpicLauncher/actions/workflows/continuous-deployment.yml/badge.svg)](https://github.com/Favna/SteamLinkEpicLauncher/actions/workflows/continuous-deployment.yml)
 
 </div>
 
