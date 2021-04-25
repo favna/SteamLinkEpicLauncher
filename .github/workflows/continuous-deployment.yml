@@ -42,7 +42,7 @@ jobs:
         run: .\build.ps1
         shell: powershell
       - name: Zip the contents
-        run: zip SteamLinkEpicLauncher_Windows_x64.zip out/*
+        run: Compress-Archive -Path .\out\* -CompressionLevel "Fastest" -DestinationPath .\SteamLinkEpicLauncher_Windows_x64.zip
       - name: Store the artifact
         uses: actions/upload-artifact@v2
         with:
