@@ -40,7 +40,10 @@ Alternatively you can also get the latest build from [GitHub Actions artifacts](
 5. Click "Create Shortcut". This will place a shortcut on your desktop.
 6. Minimize the launcher, navigate to your Desktop, and find your new shortcut (it will have the name and icon of the game).
 7. Right click on the shortcut and hit "Properties".
-8. A window similar to this should show up: ![Properties Window](./assets/properties.png).
+8. A window similar to this should show up:
+
+![Properties Window](./assets/properties.png).
+
 9. Copy the value in the URL field and save it somewhere for later.
 
 **_Adding your game to steam_**
