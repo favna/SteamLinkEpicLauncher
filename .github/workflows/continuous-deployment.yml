@@ -48,3 +48,4 @@ jobs:
         with:
           name: SteamLinkEpicLauncher_Windows_x64
           path: SteamLinkEpicLauncher_Windows_x64.zip
+          if-no-files-found: error
