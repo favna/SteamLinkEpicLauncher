@@ -41,11 +41,9 @@ jobs:
       - name: Build .NET code
         run: .\build.ps1
         shell: powershell
-      - name: Zip the contents
-        run: Compress-Archive -Path .\out\* -CompressionLevel "Fastest" -DestinationPath .\SteamLinkEpicLauncher_Windows_x64.zip
       - name: Store the artifact
         uses: actions/upload-artifact@v2
         with:
           name: SteamLinkEpicLauncher_Windows_x64
-          path: SteamLinkEpicLauncher_Windows_x64.zip
+          path: out/
           if-no-files-found: error
