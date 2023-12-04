@@ -35,7 +35,7 @@ jobs:
       - name: Checkout Project
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
       - name: Setup .NET Core
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '5.0.x'
       - name: Build .NET code
