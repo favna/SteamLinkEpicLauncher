@@ -21,7 +21,7 @@ jobs:
         run: .\build.ps1
         shell: powershell
       - name: Store the artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: SteamLinkEpicLauncher_Windows_x64
           path: out/
